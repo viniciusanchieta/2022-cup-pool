@@ -21,7 +21,7 @@ async function bootstrap(){
     return { count };
   })
 
-  await fastify.listen({ port: APP_PORT, host: HOST_PORT })
+  await fastify.listen({ port: APP_PORT, host: HOST_PORT });
 }
 
 bootstrap()
